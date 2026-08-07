@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MyRecipes</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="recipe management.html">Recipe Management</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        <section class="management-header">
+
+            <h2>Recipe Management</h2>
+
+            <p>
+                Add, edit and manage your recipes.
+            </p>
+
+        </section>
+
+        <section class="management-form">
+
+            <h3>Add New Recipe</h3>
+
+            <form>
+
+                <label for="recipe-name">Recipe Name</label>
+                <input type="text" id="recipe-name">
+
+                <label for="description">Description</label>
+                <textarea id="description"></textarea>
+
+                <label for="calories">Calories</label>
+                <input type="number" id="calories">
+
+                <button type="submit" class="button">
+                    Add Recipe
+                </button>
+            </form>
+
+            <section class="manage-recipes">
+
+                <h3>Manage Existing Recipes</h3>
+
+                <article class="recipe-card">
+
+                    <h4>Chicken Biryani</h4>
+
+                    <p>High-protein chicken biryani.</p>
+
+                    <a href="#" class="button">Edit</a>
+                    <a href="#" class="button delete-button">Delete</a>
+                    
+                </article>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 MyRecipes</p>
+    </footer>
+</body>
+</html>
